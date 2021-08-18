@@ -1,0 +1,14 @@
+body{
+  background: #25282c;
+ 
+  color:whitesmoke
+}
+
+*>a{
+  text-decoration: none !important ; 
+}
+a:visited{color:whitesmoke;}
+a:active{color: whitesmoke;}
+a{
+  color: whitesmoke;
+}
