@@ -12,6 +12,9 @@ const Navbar = () => {
       <Link to="/hypo">
         <div className={styles.link}>Hypotenues</div>
       </Link>
+      <Link to="/">
+        <div className={styles.link}>Home</div>
+      </Link>
 
       <Link to="/area">
         <div className={styles.link}>Area</div>

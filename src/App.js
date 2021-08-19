@@ -13,11 +13,12 @@ const App = () => {
     <Router>
     <Navbar/>
       <Switch>
-        <Route path ="/" exact><HomePage/></Route>
-        <Route path ="/quiz">{Quiz}</Route>
+        
+        <Route path ="/quiz"><Quiz/></Route>
         <Route path="/hypo">{HypoCalculator}</Route>
         <Route path="/angles">{Angle}</Route>
         <Route path="/area">{Area}</Route>
+        <Route path ="/" exact><HomePage/></Route>
       </Switch>
     <Footer/>
     </Router>
