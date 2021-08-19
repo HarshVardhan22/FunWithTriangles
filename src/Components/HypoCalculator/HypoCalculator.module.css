@@ -7,7 +7,9 @@
   
   .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
     width: 80vw;
     min-height: 60vh;
     padding: 20px;
@@ -19,21 +21,42 @@
     background: #181818;
     box-shadow: 11px 11px 22px #141618, -11px -11px 22px #363a40;
   }
+  .subContainer{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   
-  .right {
+  .containerLeft {
     height: 100%;
     min-width: 20vw;
-    min-height: 40vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  .containerRight {
+    height: 100%;
+    width: 20vw;
+    min-height: 50vh;
+    background: #25282c;
+    padding: 25px;
+  font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: inset 6px 6px 9px #1b1e21,
+      inset -6px -6px 9px #2f3237;
+  }
   
  
-  .container > input{
+  .containerLeft > input{
     color:rgb(177, 177, 177);
     min-width: 20vw;
+    max-height: 5vh;
       padding: 20px;
       font-size: medium;
       margin: 15px;
@@ -44,12 +67,13 @@
       inset -6px -6px 9px #2f3237;
   }
   
-  .container>input:focus{
+  .containerLeft>input:focus{
     outline: none;
   }
   
    button {
     background-color: whitesmoke;
+    max-height: 5vh;
     padding: 10px;
     border: 1px solid black;
     font-weight: 600;
