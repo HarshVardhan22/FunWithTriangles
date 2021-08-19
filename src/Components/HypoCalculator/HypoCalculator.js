@@ -57,6 +57,7 @@ const HypoCalculator = () => {
                 <p>
                   Pythagorean theorem
                   <br />
+                  <span className={styles.text}>a^2 + b^2 = c^2</span>
                   a^2 + b^2 = c^2 <br />
                   a = side of right triangle
                   <br />

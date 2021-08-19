@@ -21,6 +21,11 @@
     background: #181818;
     box-shadow: 11px 11px 22px #141618, -11px -11px 22px #363a40;
   }
+
+  .text{
+    color: #1ba94c;
+    font-size: 18px;
+}
   .subContainer{
     width: 60vw;
     display: flex;
