@@ -25,6 +25,13 @@
   min-height: 50vh;
   background-color: whitesmoke;
 }
+
+.horizontalLine
+{
+  min-width: 20vw;
+  min-height: 1px;
+  background-color: whitesmoke;
+}
 .triangle{
  
   color: #dd0031;
@@ -42,7 +49,7 @@
 .right {
   height: 100%;
   min-width: 20vw;
-  min-height: 40vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,4 +94,9 @@
 }
 .left{
     margin-left: 50px;
+    width: 50vw;
+}
+
+.left>h2{
+  margin-bottom: 25px;
 }

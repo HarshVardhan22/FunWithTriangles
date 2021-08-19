@@ -96,7 +96,7 @@ const Quiz = () => {
                    
                     {forceStop < 50 && (
                         <div className={styles.left}>
-                            <h3>{QuestionData[index].ques}</h3>
+                            <h2>{QuestionData[index].ques}</h2>
                             <h4 onClick={(e) => check(QuestionData[index].options[0])}>
                                 a. {QuestionData[index].options[0]}
                             </h4>
@@ -114,6 +114,7 @@ const Quiz = () => {
                     <div className={styles.line}></div>
                     <div className={styles.right}>
                         {forceStop < 50 && <h1>{timer}</h1>}
+                        <div className={styles.horizontalLine}></div>
                         {forceStop < 50 && <h1>Score : {score}</h1>}
                        
                     </div>

@@ -1,6 +1,6 @@
 export const QuestionData = [
   {
-    ques: "A plane which is formed by three straight edges as its sides is called ?",
+    ques: "Plane which is formed by three straight edges as its sides is called ?",
     options: ["triangle", "quadrilateral", "pentagon", "hexagon"],
     ans: "triangle",
   },
