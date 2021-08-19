@@ -18,7 +18,7 @@ const Area = () => {
         <div className={styles.parent}>
         <Bounce left>
           <div className={styles.container}>
-            <h1>Calculate Area</h1>
+            <h1>Calculate <span className={styles.triangle}>Area</span></h1>
             <div className={styles.subContainer}>
             <Bounce left>
             <div className={styles.containerLeft}>

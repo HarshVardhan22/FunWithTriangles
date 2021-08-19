@@ -71,7 +71,21 @@
       box-shadow: inset 6px 6px 9px #1b1e21,
       inset -6px -6px 9px #2f3237;
   }
-  
+  .triangle{
+ 
+    color: #dd0031;
+    animation-name: colorChanger;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChanger {
+   0%   {color: #dd0031;}
+   25%  {color: #efd81d;}
+   50%  {color: #1ba94c;}
+   100% {color: #dd0031;}
+}
+
   .containerLeft>input:focus{
     outline: none;
   }

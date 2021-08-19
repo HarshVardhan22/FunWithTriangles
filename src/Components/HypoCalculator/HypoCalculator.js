@@ -14,7 +14,7 @@ const HypoCalculator = () => {
     <div className={styles.parent}>
       <Bounce left>
         <div className={styles.container}>
-          <h1>Calculate Hypotenues</h1>
+          <h1>Calculate <span className={styles.triangle}>Hypotenues</span></h1> 
           <div className={styles.subContainer}>
           <Bounce left>
           <div className={styles.containerLeft}>
@@ -58,7 +58,7 @@ const HypoCalculator = () => {
                   Pythagorean theorem
                   <br />
                   <span className={styles.text}>a^2 + b^2 = c^2</span>
-                  a^2 + b^2 = c^2 <br />
+                <br />
                   a = side of right triangle
                   <br />
                   b = side of right triangle

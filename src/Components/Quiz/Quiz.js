@@ -16,7 +16,9 @@ const Quiz = () => {
     const start = () => {
         //this will change the index for the first time when the timer is started
         setIndex((prevState) => prevState + 1);
+        
         //this will change the timer
+        // eslint-disable-next-line
         let interval = setInterval(() => {
             //incrementing the timer value by 1 every second
             setTimer((timer) => timer + 1);
@@ -39,6 +41,7 @@ const Quiz = () => {
 
     useEffect(() => {
         nextQuestion();
+        // eslint-disable-next-line
     }, [timer]);
 
     //check funtion :
@@ -64,7 +67,7 @@ const Quiz = () => {
         <Bounce left>
         {index === -1 && (
                 <div className={styles.start}>
-                    <h2>Welcome to Quiz</h2>
+                    <h1>Welcome to <span className={styles.triangle}>Quiz</span></h1>
                     <h2>There a total 5 question</h2>
                     <h2> You will get 10 seconds for each question</h2>
                     <button onClick={start}>Start</button>
@@ -108,6 +111,7 @@ const Quiz = () => {
                             </h4>
                         </div>
                     )}
+                    <div className={styles.line}></div>
                     <div className={styles.right}>
                         {forceStop < 50 && <h1>{timer}</h1>}
                         {forceStop < 50 && <h1>Score : {score}</h1>}

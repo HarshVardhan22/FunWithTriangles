@@ -1,5 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+// eslint-disable-next-line
 import styles from "./App.module.css"
 import Angle from './Components/Angle/Angle';
 import Area from './Components/Area/Area';
