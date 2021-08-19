@@ -25,6 +25,7 @@
   min-width: 20vw;
   min-height: 40vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -45,7 +46,7 @@
   background: #181818;
   box-shadow: 11px 11px 22px #141618, -11px -11px 22px #363a40;
 }
-.start > button {
+ button {
   background-color: whitesmoke;
   padding: 10px;
   border: 1px solid black;
@@ -54,8 +55,17 @@
   margin: 12px;
   border-radius: 5px;
 }
-.start > button:hover {
+ button:hover {
   background-color: #1f1f1f;
   color: whitesmoke;
   transition: all 0.2s linear;
+}
+
+.left h4:hover{
+ color:#1ba94c ;
+ font-size :20px;
+ transition: all 0.2s linear;
+}
+.left{
+    margin-left: 50px;
 }

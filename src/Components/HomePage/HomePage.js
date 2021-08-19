@@ -1,11 +1,8 @@
 import React from "react";
 import styles from "./HomePage.module.css";
-import Angle from "../Angle/Angle";
-import Area from "../Area/Area";
-import HypoCalculator from "../HypoCalculator/HypoCalculator";
-import Quiz from "../Quiz/Quiz";
+
 import Fade from "react-reveal/Fade";
-import { IoTriangle } from "react-icons/io5";
+
 import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
