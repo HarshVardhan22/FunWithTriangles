@@ -23,37 +23,46 @@ const HomePage = () => {
           <Fade left>
             <Link to="/quiz">
               <div className={styles.card}>
-                <h2>Topic</h2>
+                <h2>Quiz</h2>
                 <div className={styles.line}></div>
-
-                <p>Details</p>
+                  <br/>
+                <p>Check your knowledge about Triangles</p>
+                <p>
+                  You will get your score after the end of quiz.
+                </p>
               </div>
             </Link>
           </Fade>
           <Fade left>
             <Link to="/hypo">
               <div className={styles.card}>
-                <h2>Topic</h2>
+                <h2>Hypotenues</h2>
                 <div className={styles.line}></div>
-                <p>Details</p>
+                <br></br>
+                <p>Know more about hypotenues</p>
+                <p>Calculate hypotenues of a triangle</p>
               </div>
             </Link>
           </Fade>
           <Fade left>
             <Link to="/area">
               <div className={styles.card}>
-                <h2>Topic</h2>
+                <h2>Area</h2>
                 <div className={styles.line}></div>
-                <p>Details</p>
+                <br></br>
+                <p>Know more about area</p>
+                <p>Calculate area of a triangle</p>
               </div>
             </Link>
           </Fade>
           <Fade left>
             <Link to="/angles">
               <div className={styles.card}>
-                <h2>Topic</h2>
+                <h2>Angles</h2>
                 <div className={styles.line}></div>
-                <p>Details</p>
+                <br></br>
+                <p>Know more about Angles</p>
+                <p>Check whether your angles can form a triangle </p>
               </div>
             </Link>
           </Fade>
