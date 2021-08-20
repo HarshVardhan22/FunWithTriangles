@@ -10,9 +10,10 @@ const Area = () => {
     const [area, setArea] = useState("");
   
     const checkArea = () => {
-        let s =  ((parseFloat(sideA) + parseFloat(sideB) + parseFloat(sideC))/2).toFixed(2);
+        let s = 0;
+        s=  ((parseFloat(sideA) + parseFloat(sideB) + parseFloat(sideC))/2).toFixed(2);
         setPerimeter(s);
-      setArea(Math.sqrt(s*(s-sideA)*(s-sideB)*(s-sideC)));
+      setArea(Math.sqrt(Math.abs(s*(s-parseFloat(sideA))*(s-parseFloat(sideB))*(s-parseFloat(sideC)))));
     };
     return (
         <div className={styles.parent}>
