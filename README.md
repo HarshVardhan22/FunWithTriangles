@@ -1,3 +1,12 @@
+# Checkout his app : https://triangluar-react.netlify.app/
+An application made by using React.js 
+It have 4 different sections :
+1.Quiz - Quiz section with timer and score
+2.Hypotenues Calculator
+3.Area calculator
+4.Checks if you can form a triangle with given angles
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
